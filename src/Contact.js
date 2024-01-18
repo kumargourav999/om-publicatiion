@@ -1,10 +1,10 @@
-import React from 'react'
-
+import React from 'react';
+import "./App.css";
 export default function Contact() {
   return (
-    <div>
+    <div class="mylogo">
      
-      <h1>Mobile N0.-918210898441,918826296239</h1>
+      <h1 className='mobile'>Mobile N0.-918210898441,918826296239</h1>
       <div className='socialmedia1'>
         <div>
           

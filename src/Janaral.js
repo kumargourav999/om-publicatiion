@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import SearchComponent from './SearchComponent';
 import DisplayComponent from './DisplayComponent';
 import "./App.css";
+import { Link } from 'react-router-dom';
 const Janaral = () => {
   const [objects, setObjects] = useState([
     { id: 1, name: 'Journal for ReAttach Therapy and Developmental Diversities',issn:"",eissn :'2589-7799',janaral:'https://www.jrtdd.com/index.php/journal'},
@@ -28,29 +29,29 @@ const Janaral = () => {
   };
 
   return (
-    <>
-    <div>
+    
+    <div className="main">
       <SearchComponent onSearch={handleSearch} />
       <DisplayComponent searchResults={searchResults} />
       <div className='socialmedia2'>
-        <div>
+        <span>
           
 <a href="https://wa.me/918210898441?text=hello mr. gautam i need publication service." target="_blank"><img className='img1' alt="" src="https://tse1.mm.bing.net/th?id=OIP.TwESrblIhpd2D8XG5VDz5QHaHa&pid=Api&rs=1&c=1&qlt=95&w=113&h=113"></img></a>
-</div>
-<div>
+</span>
+<span>
 <a href="https://www.instagram.com/_.aghori_?igsh=MzRlODBiNWFlZA==" > <img className='img1' alt="" src="https://tse1.mm.bing.net/th?id=OIP.-ZirgQE5pr8e7htQWowJIgHaHa&pid=Api&P=0&h=180" ></img></a>
-</div>
-<div>
- <a> <img className='img1' alt="" src="https://clipground.com/images/logo-call-png-1.jpg"></img></a>
- </div>
- <div>
- <a> <img className='img1' alt="" src="https://sguru.org/wp-content/uploads/2018/02/Facebook-PNG-Image-71244.png"></img></a> 
- </div>
+</span>
+<span>
+<Link to="/contact"> <img className='img1' alt="" src="https://clipground.com/images/logo-call-png-1.jpg"></img></Link> 
+ </span>
+ <span>
+  <img className='img1' alt="" src="https://sguru.org/wp-content/uploads/2018/02/Facebook-PNG-Image-71244.png"></img>
+ </span>
   
  
 </div>
     </div>
-   </>
+   
   );
 };
 

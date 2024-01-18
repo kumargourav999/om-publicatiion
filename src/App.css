@@ -1,28 +1,57 @@
-.app1 {
- height: 1000px;
-  background-image: url('https://cdn3.vectorstock.com/i/1000x1000/79/92/person-working-on-a-computer-or-laptop-vector-23777992.jpg');
- background-repeat: no-repeat;
-background-position: 410px 20px;
+imgart{
+  
+  float:right;
+ width:700px;
+  height:500px;
 
+  
+  
+}
+.imgart1{
+  padding-top: 0px;
+  width:40%;
+  height:400px;
+}
+.imgart{
+  animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.app1{
+  height:max-content;
+  background-color:rgb(27, 181, 181);
+  background-color:rgb(133, 194, 234);
 }
 
 
 .div1{
   position: relative;
   top:90px;
-  background-color: black;
-  width:max-content;
+  background-color:white;
+  width:60%;
   color: burlywood;
-}
-.div2{
-  position: relative;
-  top:200px;
-  width:300px;
   
 }
+.div2{
+   /* Use flex container */
+   position: relative;
+   top:90px;
+   padding: 20px;
+   
+  
+  
+}
+.p1{
+  width:60%;
+  color:aliceblue
+}
 .socialmedia{
+  
   position: relative;
-  top:250px;
+  top:100px;
+ 
   
   
 }
@@ -34,11 +63,11 @@ background-position: 410px 20px;
 .img1:hover{
   width: 120px;
 }
-.div1 h1 {
+.div1 .h1 {
   
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em solid black; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 1px; /* Adjust as needed */
@@ -59,45 +88,50 @@ background-position: 410px 20px;
   50% { border-color: orange }
 }
 .about1{
-  display:flex;
-  background-color:rgb(171, 167, 167);
-  padding: 10px;
+  
+  background-color:rgb(133, 194, 234);
+  padding-left: 10px;
+
 }
 .a1{
-  width: 900px;
-  padding: 10px;
-  font-size: 30px;
+  display: flex;
+  padding: 20px;;
   
 }
 .a2{
   font-size: 40px;
   padding: 10px;
   text-decoration: underline;
+  color: rgb(249, 244, 239);
+  font-family:fantasy
 }
 .a3{
-  color: white
+  width:70%;
+  color: white;
+  padding:10px;
+  font-family: cursive;
+  font-size: 25px;
 }
 .img{
   
   height:300px;
-  width:500px;
+  width:30%;
 }
 .socialmedia1{
   
   position: relative;
   top:250px;
 }
+
 .link{
   background-color:gainsboro;
  
   justify-content: center;
-  display: flex;
-  position: absolute;
-  left:500px;
-  position: relative;
-  top:-15px;
+ padding-left: 30px;
+  
+  float:right;
   width:100px;
-  border:2px solid grey;
+  border:2px solid black;
   height:30px;
   border-radius: 3px;
   
@@ -105,16 +139,51 @@ background-position: 410px 20px;
 .a{
   text-decoration: none;
 }
+.jour{
+  padding-top: 10px;
+  width:70% ;
+}
+.logo{
+  width:100px;
+ 
+  
+}
 
 .jo{
-  width:1100px ;
-  background-color: gray;
-  padding-left: 15px;
+ 
+  background-color:rgb(133, 194, 234);;
+  
+  width:100%;
+  padding-top:15px;
+  margin: auto;
   border-radius: 10px;
+  margin: 15px;
+  color:aliceblue;
+  
+}
+.main{
+  
 }
 .socialmedia2{
-  position:absolute;
-  right: 10px;;
+  position: relative;
   top:70px;
-  position:fixed;
+  float:left;
+  display: inline;
+}
+.p1{
+  font-family: cursive;
+  font-size:30px;
+}
+.mylogo{
+  background-image: url("./1705149806358.jpg");
+  
+  height: 700px;
+}
+.mobile{
+  font-family: fantasy;
+  color: aliceblue;
+}
+.input{
+  padding-left: 10px;
+  
 }

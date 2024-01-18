@@ -11,7 +11,7 @@ const SearchComponent = ({ onSearch }) => {
   };
 
   return (
-    <div>
+    <div className='input'>
       <input
         type="text"
         placeholder="Search..."
