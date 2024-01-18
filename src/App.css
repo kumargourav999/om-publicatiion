@@ -1,5 +1,5 @@
 .app1 {
- height: 2000px;
+ height: 1000px;
   background-image: url('https://cdn3.vectorstock.com/i/1000x1000/79/92/person-working-on-a-computer-or-laptop-vector-23777992.jpg');
  background-repeat: no-repeat;
 background-position: 410px 20px;
@@ -115,6 +115,6 @@ background-position: 410px 20px;
 .socialmedia2{
   position:absolute;
   right: 10px;;
-  top:10px;
+  top:70px;
   position:fixed;
 }
