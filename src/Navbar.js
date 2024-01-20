@@ -6,34 +6,35 @@ import "./App.css";
 const Navbar = () => {
   return (
     <div className='navdiv'>
+       <Link className="na" to="/">
+          OM Publication Services
+        </Link>
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container-fluid">
         <img className="logo" src={yourImage}></img>
-        <Link className="na" to="/">
-          OM Publication
-        </Link>
+       
         
           
         <div id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-l" to="/">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">
+              <Link className="nav-l" to="/about">
                 About Us
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
+              <Link className="nav-l" to="/contact">
                 Contact
               </Link>
             </li>
             
             <li className="nav-item">
-              <Link className="nav-link" to="/journal">
+              <Link className="nav-l" to="/journal">
                 Journals
               </Link>
             </li>

@@ -15,10 +15,14 @@ export default function Contact() {
 <a href="https://www.instagram.com/_.aghori_?igsh=MzRlODBiNWFlZA==" > <img className='img1' alt="" src="https://tse1.mm.bing.net/th?id=OIP.-ZirgQE5pr8e7htQWowJIgHaHa&pid=Api&P=0&h=180" ></img></a>
 </div>
 <div>
- <a> <img className='img1' alt="" src="https://clipground.com/images/logo-call-png-1.jpg"></img></a>
+<a href="tel:918826296239">
+  <img className='img1' alt="" src="https://clipground.com/images/logo-call-png-1.jpg" />
+</a>
  </div>
  <div>
- <a> <img className='img1' alt="" src="https://sguru.org/wp-content/uploads/2018/02/Facebook-PNG-Image-71244.png"></img></a> 
+ <a href="mailto:submit.ompublication@gmail.com">
+     <img className='img1' alt="" src="https://tse3.explicit.bing.net/th?id=OIP.zhmbLnhaKr8LAo-YbR_K4wHaFY&pid=Api&P=0&h=180" />
+   </a>
  </div>
   
  

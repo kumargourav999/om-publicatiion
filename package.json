@@ -13,6 +13,7 @@
     "react-router-dom": "^6.21.2",
     "react-scripts": "5.0.1",
     "react-whatsapp": "^0.3.0",
+    "simple-peer": "^9.11.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

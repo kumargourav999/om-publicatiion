@@ -46,13 +46,17 @@ const Janaral = () => {
 <Link to="/contact"> <img className='img1' alt="" src="https://clipground.com/images/logo-call-png-1.jpg"></img></Link> 
  </span>
  <span>
-  <img className='img1' alt="" src="https://sguru.org/wp-content/uploads/2018/02/Facebook-PNG-Image-71244.png"></img>
+ <a href="mailto:submit.ompublication@gmail.com">
+     <img className='img1' alt="" src="https://tse3.explicit.bing.net/th?id=OIP.zhmbLnhaKr8LAo-YbR_K4wHaFY&pid=Api&P=0&h=180" />
+   </a>
  </span>
   
  
 </div>
+
+     
 <div className='part1' >
-           
+            
                 <img className='partner'  src={imagejij}></img>
             </div>
     </div>

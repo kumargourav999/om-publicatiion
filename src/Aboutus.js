@@ -1,10 +1,11 @@
 import React from 'react'
 import "./App.css";
+
 export default function Aboutus() {
   return (
 
         <div>
-          <h1>About Us</h1>
+          <h1 className='ab'>About Us</h1>
           <div className='about1'>
           
           <p className='a2'>Accelerate your article Publication with Us</p>
@@ -48,6 +49,7 @@ export default function Aboutus() {
           
           </div>
           <hr></hr>
+          
         </div>
       )
     

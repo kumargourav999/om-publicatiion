@@ -34,8 +34,12 @@ export default function
             <div className='socialmedia'>
                 <a href="https://wa.me/918210898441?text=hello mr. gautam i need publication service." target="_blank"><img className='img1' alt="" src="https://tse1.mm.bing.net/th?id=OIP.TwESrblIhpd2D8XG5VDz5QHaHa&pid=Api&rs=1&c=1&qlt=95&w=113&h=113"></img></a>
                 <a href="https://www.instagram.com/_.aghori_?igsh=MzRlODBiNWFlZA==" > <img className='img1' alt="" src="https://tse1.mm.bing.net/th?id=OIP.-ZirgQE5pr8e7htQWowJIgHaHa&pid=Api&P=0&h=180" ></img></a>
-               <Link to="/contact"> <img className='img1' alt="" src="https://clipground.com/images/logo-call-png-1.jpg"></img></Link>
-                <img className='img1' alt="" src="https://sguru.org/wp-content/uploads/2018/02/Facebook-PNG-Image-71244.png"></img>
+                <a href="tel:918826296239">
+  <img className='img1' alt="" src="https://clipground.com/images/logo-call-png-1.jpg" />
+</a>
+     <a href="mailto:submit.ompublication@gmail.com">
+     <img className='img1' alt="" src="https://tse3.explicit.bing.net/th?id=OIP.zhmbLnhaKr8LAo-YbR_K4wHaFY&pid=Api&P=0&h=180" />
+   </a>
 
 
             </div>

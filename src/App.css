@@ -1,14 +1,14 @@
 
 .na{
-  color: white;
+  color: black;
   font-family: fantasy;
-  font-size: 25px;
+  font-size: 6vw;
 }
 
   .imgart1{
-    padding-top: 50px;
-    width:calc(350px + 1.5vw);
-    height: calc(300px + 1.5vw);
+   width: 70%;
+    height: 25vw;
+    margin:auto;
   
   }
 
@@ -21,7 +21,7 @@
   100% { opacity: 1; }
 }
 .app1{
-  height:calc(max-height);
+  height:800px;
   background-color:rgb(4, 33, 41);
  
 }
@@ -60,15 +60,16 @@
   
 }
 .img1{
-  width: 80px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   
   
  border-radius: 16px;
   
 }
 .img1:hover{
-  width: 120px;
+  width: 60px;
+  height: 60px;
 }
 .div1 .h1 {
   font-size:  calc(16px + 0.5vw);
@@ -124,8 +125,16 @@
   
   height:12vw;
   width:14vw;
+  
 }
 .socialmedia1{
+  padding:20px;
+  
+  position: relative;
+  top:250px;
+}
+.socialmedia1{
+  padding:20px;
   
   position: relative;
   top:250px;
@@ -134,15 +143,19 @@
 .link{
   background-color:gainsboro;
  
-  justify-content: center;
- padding-left: 30px;
-  
-  float:right;
-  width:100px;
+  align-items: center;
+ margin:auto;
+  display: inline;
+  position: absolute;
+  width:8vw;
+  left:62vw;
   border:2px solid black;
-  height:30px;
+  height:auto;
   border-radius: 3px;
   
+}
+.link:hover{
+  background-color: aqua;
 }
 .a{
   text-decoration: none;
@@ -153,6 +166,7 @@
 }
 .logo{
   width:100px;
+  border-radius: 40px;
  
   
 }
@@ -170,6 +184,9 @@
   
 }
 .jo h3{
+  font-size: calc(10px + 0.5vw);
+}
+.jo span{
   font-size: calc(10px + 0.5vw);
 }
 .socialmedia2{
@@ -194,14 +211,14 @@
   color: aliceblue;
 }
 .input{
-  padding-left: 10px;
+  padding: 10px;
   
 }
 .partner{
  
  
-  width:calc(326px + 13.5vw);
-  height: calc(300px + 1.5vw);
+  width: 100%;
+  height: auto;
 }
 .partner1{
  
@@ -215,16 +232,26 @@
 .part{
  
  position: relative;
- top:380px;
+ top:310px;
 }
 .part1{
  
   position: relative;
-  top:180px;
-  left: 50px;
+  top:100px;
+  
   
  }
 
 li{
  color:wheat;
+}
+.nav-l{
+  padding-left: 6vw;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.ab{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: calc(16px + 0.5vw);
 }
