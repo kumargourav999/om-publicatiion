@@ -4,6 +4,7 @@ import SearchComponent from './SearchComponent';
 import DisplayComponent from './DisplayComponent';
 import "./App.css";
 import { Link } from 'react-router-dom';
+import imagejij from "./1705582286867.jpg";
 const Janaral = () => {
   const [objects, setObjects] = useState([
     { id: 1, name: 'Journal for ReAttach Therapy and Developmental Diversities',issn:"",eissn :'2589-7799',janaral:'https://www.jrtdd.com/index.php/journal'},
@@ -50,6 +51,10 @@ const Janaral = () => {
   
  
 </div>
+<div className='part1' >
+           
+                <img className='partner'  src={imagejij}></img>
+            </div>
     </div>
    
   );

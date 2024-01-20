@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './App.css';
 import { Link } from 'react-router-dom';
+import imagejij from "./1705582286867.jpg";
 export default function
     Home() {
     const img = ["https://sheridanvoysey.com/wp-content/uploads/2016/05/4-1.jpg", "https://www.teachingenglish.org.uk/sites/teacheng/files/images/class_journals_iStock_000021675732XSmall.jpg", "https://wallpaperaccess.com/full/2878903.jpg", "https://wallpapers.com/images/hd/journals-with-black-leather-cover-c3wnz2qydxd16id6.jpg"];
@@ -37,6 +38,10 @@ export default function
                 <img className='img1' alt="" src="https://sguru.org/wp-content/uploads/2018/02/Facebook-PNG-Image-71244.png"></img>
 
 
+            </div>
+            <div className='part' >
+            <h3 className='partner2'>OUR INDEXING PARTNER</h3>
+                <img className='partner'  src={imagejij}></img>
             </div>
         </div>
 

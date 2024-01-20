@@ -5,10 +5,11 @@ import yourImage from './1705149806358.jpg';
 import "./App.css";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div className='navdiv'>
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container-fluid">
         <img className="logo" src={yourImage}></img>
-        <Link className="navbar-brand" to="/">
+        <Link className="na" to="/">
           OM Publication
         </Link>
         
@@ -40,6 +41,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </div>
   );
 };
 
